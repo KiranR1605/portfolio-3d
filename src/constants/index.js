@@ -144,7 +144,7 @@ const internships = [
     company_name: "CodeClause",
     icon: codeclause,
     iconBg: "#E6DEDD",
-    date: "Apr 2023 - Present",
+    date: "Jun 2023 - Present",
     points: [
       "Studied user requirements to gain strong understanding of project initiatives and deadlines.",
       "Attended development programs to gain competencies and boost skills set.",
