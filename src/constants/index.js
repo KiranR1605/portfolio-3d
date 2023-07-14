@@ -139,19 +139,7 @@ const internships = [
       "Created data models to support decision-making processes.",
     ],
   },
-  {
-    title: "Web Development Intern",
-    company_name: "CodeClause",
-    icon: codeclause,
-    iconBg: "#E6DEDD",
-    date: "Jun 2023 - Present",
-    points: [
-      "Studied user requirements to gain strong understanding of project initiatives and deadlines.",
-      "Attended development programs to gain competencies and boost skills set.",
-      "Prioritized and problem-solved several tasks concurrently with minimum supervision.",
-      "Developed user interfaces with modern JavaScript frameworks, HTML5, and CSS3.",
-    ],
-  }
+  
 ]
 
 const courses = [
