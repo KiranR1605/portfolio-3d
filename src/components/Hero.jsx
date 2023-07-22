@@ -8,6 +8,7 @@ const Hero = () => {
   const instagram = "https://instagram.com/__.__ki_r_an__.__?igshid=MzNlNGNkZWQ4Mg=="
   const linkedin = "https://www.linkedin.com/in/kiran-r-b60960208"
   const github = "https://github.com/KiranR1605"
+  
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
