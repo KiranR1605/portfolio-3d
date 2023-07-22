@@ -2,13 +2,31 @@ import { motion } from "framer-motion"
 
 import { styles } from "../styles"
 import { ComputersCanvas } from "./canvas"
+import { BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs"
 
 const Hero = () => {
+  const instagram = "https://instagram.com/__.__ki_r_an__.__?igshid=MzNlNGNkZWQ4Mg=="
+  const linkedin = "https://www.linkedin.com/in/kiran-r-b60960208"
+  const github = "https://github.com/KiranR1605"
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[90px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
+        <div className={`flex flex-col sm:mr-5 mt-10 gap-10 z-50`}>
+          <div onClick={() => window.open(linkedin, "_blank")}
+            className='flex justify-center items-center cursor-pointer'>
+            <BsLinkedin size={30} />
+          </div>
+          <div onClick={() => window.open(github, "_blank")}
+            className='flex justify-center items-center cursor-pointer'>
+            <BsGithub size={30} />
+          </div>
+          <div onClick={() => window.open(instagram, "_blank")}
+            className='flex justify-center items-center cursor-pointer'>
+            <BsInstagram size={30} />
+          </div>
+        </div>
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
@@ -16,7 +34,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Kiran</span>
+            Hi, I'm <span className='text-[#915EFF]'>Kiran R</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I'm a python programmer and <br className='sm:block hidden' />
