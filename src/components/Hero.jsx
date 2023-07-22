@@ -8,7 +8,7 @@ const Hero = () => {
   const instagram = "https://instagram.com/__.__ki_r_an__.__?igshid=MzNlNGNkZWQ4Mg=="
   const linkedin = "https://www.linkedin.com/in/kiran-r-b60960208"
   const github = "https://github.com/KiranR1605"
-  
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -17,15 +17,15 @@ const Hero = () => {
         <div className={`flex flex-col sm:mr-5 mt-10 gap-10 z-50`}>
           <div onClick={() => window.open(linkedin, "_blank")}
             className='flex justify-center items-center cursor-pointer'>
-            <BsLinkedin size={30} />
+            <BsLinkedin className='text-[20px] sm:text-[30px]' />
           </div>
           <div onClick={() => window.open(github, "_blank")}
             className='flex justify-center items-center cursor-pointer'>
-            <BsGithub size={30} />
+            <BsGithub className='text-[20px] sm:text-[30px]' />
           </div>
           <div onClick={() => window.open(instagram, "_blank")}
             className='flex justify-center items-center cursor-pointer'>
-            <BsInstagram size={30} />
+            <BsInstagram className='text-[20px] sm:text-[30px]' />
           </div>
         </div>
         <div className='flex flex-col justify-center items-center mt-5'>
@@ -38,8 +38,8 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Kiran R</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a python programmer and <br className='sm:block hidden' />
-            Full stack web Developer.
+            I'm a Python Developer and <br className='sm:block hidden' />
+            Full Stack Seb Developer.
           </p>
         </div>
       </div>
