@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 top-[90px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 sm:top-[90px] top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className={`flex flex-col sm:mr-5 mt-10 gap-10 z-50`}>
           <div onClick={() => window.open(linkedin, "_blank")}
@@ -34,7 +34,7 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
+          <h1 className={`${styles.heroHeadText} text-white mt-[30px] sm:mt-0`}>
             Hi, I'm <span className='text-[#915EFF]'>Kiran R</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
